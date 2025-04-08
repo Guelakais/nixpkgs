@@ -2651,6 +2651,8 @@ self: super: with self; {
 
   colcon = callPackage ../development/python-modules/colcon { };
 
+  colcon-argcomplete = callPackage ../development/python-modules/colcon-argcomplete { };
+
   collections-extended = callPackage ../development/python-modules/collections-extended { };
 
   collidoscope = callPackage ../development/python-modules/collidoscope { };
