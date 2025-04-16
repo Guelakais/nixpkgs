@@ -624,6 +624,8 @@ self: super: with self; {
 
   amcrest = callPackage ../development/python-modules/amcrest { };
 
+  ament_package = callPackage ../development/python-modules/ament_package { };
+
   amply = callPackage ../development/python-modules/amply { };
 
   amqp = callPackage ../development/python-modules/amqp { };
