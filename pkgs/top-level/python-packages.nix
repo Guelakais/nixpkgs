@@ -15975,6 +15975,8 @@ self: super: with self; {
 
   rosbags = callPackage ../development/python-modules/rosbags { };
 
+  roslint = callPackage ../development/python-modules/roslint { };
+
   rotary-embedding-torch = callPackage ../development/python-modules/rotary-embedding-torch { };
 
   rouge-score = callPackage ../development/python-modules/rouge-score { };
